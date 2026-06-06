@@ -35,7 +35,8 @@ public class Prims {
 
                     for (int j = 0; j < V; j++) {
 
-                        if (!visited[j] && graph[i][j] != 0) {
+                        if (!visited[j] && graph[i][j] != 0) 
+                        {
 
                             if (graph[i][j] < min) {
                                 min = graph[i][j];
@@ -47,7 +48,7 @@ public class Prims {
                 }
             }
 
-            System.out.println(x + " - " + y + " = " + graph[x][y]);
+            System.out.println(x + " - " +  + " = " + graph[x][y]);
 
             cost += graph[x][y];
 
